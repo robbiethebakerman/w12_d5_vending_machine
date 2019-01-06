@@ -3,9 +3,6 @@ package vending_machine_tests;
 import org.junit.Before;
 import org.junit.Test;
 import vending_machine.VendingMachine;
-import vending_machine.inventory.ProductDispenser;
-import vending_machine.wallet.CoinBank;
-import vending_machine.wallet.CoinHandler;
 import vending_machine.wallet.CoinType;
 
 import static org.junit.Assert.assertEquals;

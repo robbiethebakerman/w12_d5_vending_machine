@@ -31,4 +31,28 @@ public class ProductDispenser {
             count++;
         }
     }
+
+
+    public ProductType getProductByCode(String code) {
+        ProductType foundProduct = null;
+        for (ProductType product : products) {
+            if (code.equals(product.getCode())) {
+                foundProduct = product;
+                products.remove(product);
+                return foundProduct;
+            }
+        }
+        return foundProduct;
+    }
+
+    public boolean checkAmountEnoughForProduct(ProductType product, double amount) {
+        if (product.getPrice() <= amount) {
+            return true;
+        }
+        return false;
+    }
+
+    public double checkRemainingAmount(ProductType product, double amount) {
+        return product.getPrice() - amount;
+    }
 }
