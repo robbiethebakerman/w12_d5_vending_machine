@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaaea6ef-585a-4244-87a3-f44dac78dfe9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/vending_machine/inventory/ProductDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vending_machine/inventory/ProductDispenser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vending_machine_tests/inventory_tests/ProductDispenserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vending_machine_tests/inventory_tests/ProductDispenserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vending_machine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vending_machine/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vending_machine/wallet/CoinHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vending_machine/wallet/CoinHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vending_machine_tests/VendingMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vending_machine_tests/VendingMachineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vending_machine_tests/wallet_tests/CoinHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vending_machine_tests/wallet_tests/CoinHandlerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -32,35 +34,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="41" />
+          <entry key="java" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4842" />
+          <entry key="java" value="6625" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4842" />
+          <entry key="JAVA" value="6625" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4635193">
+    <splitter split-orientation="horizontal" split-proportion="0.37911302">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/vending_machine_tests/wallet_tests/CoinHandlerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+                <state relative-caret-position="315">
+                  <caret line="48" selection-start-line="48" selection-end-line="48" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -68,10 +70,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/vending_machine_tests/inventory_tests/ProductDispenserTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="218">
+                <state relative-caret-position="763">
                   <caret line="75" column="63" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -82,13 +84,15 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/vending_machine_tests/VendingMachineTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+                <state relative-caret-position="333">
+                  <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#530#531#0" expanded="true" />
+                    <element signature="e#560#561#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -116,8 +120,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/vending_machine/wallet/CoinBank.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1020">
-                  <caret line="84" selection-start-line="84" selection-end-line="84" />
+                <state relative-caret-position="180">
+                  <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
                   <folding>
                     <element signature="e#149#150#0" expanded="true" />
                     <element signature="e#195#196#0" expanded="true" />
@@ -131,10 +135,22 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/vending_machine_tests/wallet_tests/CoinBankTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="318">
+                  <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/vending_machine/wallet/CoinHandler.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+                <state relative-caret-position="390">
+                  <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
                   <folding>
                     <element signature="e#162#163#0" expanded="true" />
                     <element signature="e#215#216#0" expanded="true" />
@@ -145,11 +161,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/vending_machine/inventory/ProductDispenser.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="346">
-                  <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+                <state relative-caret-position="183">
+                  <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
                   <folding>
                     <element signature="e#182#183#0" expanded="true" />
                     <element signature="e#231#232#0" expanded="true" />
@@ -157,21 +173,25 @@
                     <element signature="e#489#490#0" expanded="true" />
                     <element signature="method#fill#0;class#ProductDispenser#0" />
                     <element signature="e#1422#1423#0" expanded="true" />
-                    <element signature="e#1472#1473#0" expanded="true" />
+                    <element signature="e#1473#1474#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/vending_machine/VendingMachine.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+                <state relative-caret-position="750">
+                  <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#804#805#0" expanded="true" />
                     <element signature="e#837#838#0" expanded="true" />
+                    <element signature="e#897#898#0" expanded="true" />
+                    <element signature="e#930#931#0" expanded="true" />
+                    <element signature="e#1034#1035#0" expanded="true" />
+                    <element signature="e#1067#1068#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -495,12 +515,12 @@
         <option value="$PROJECT_DIR$/src/main/java/vending_machine/wallet/CoinType.java" />
         <option value="$PROJECT_DIR$/src/test/java/vending_machine_tests/wallet_tests/CoinBankTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/vending_machine/wallet/CoinBank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vending_machine/wallet/CoinHandler.java" />
-        <option value="$PROJECT_DIR$/src/test/java/vending_machine_tests/wallet_tests/CoinHandlerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/vending_machine_tests/VendingMachineTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vending_machine/VendingMachine.java" />
         <option value="$PROJECT_DIR$/src/test/java/vending_machine_tests/inventory_tests/ProductDispenserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/vending_machine/inventory/ProductDispenser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/vending_machine_tests/wallet_tests/CoinHandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vending_machine/wallet/CoinHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vending_machine/VendingMachine.java" />
+        <option value="$PROJECT_DIR$/src/test/java/vending_machine_tests/VendingMachineTest.java" />
       </list>
     </option>
   </component>
@@ -616,7 +636,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546802348173" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546809305447" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -666,6 +686,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CoinHandlerTest.canEmptyCurrentCoins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VendingMachine_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vending_machine_tests.wallet_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vending_machine_tests.wallet_tests" />
+      <option name="MAIN_CLASS_NAME" value="vending_machine_tests.wallet_tests.CoinHandlerTest" />
+      <option name="METHOD_NAME" value="canEmptyCurrentCoins" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="vending_machine_tests in VendingMachine_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VendingMachine_test" />
       <extension name="coverage">
@@ -699,10 +735,12 @@
       <item itemvalue="JUnit.CoinBankTest.canAddCoin" />
       <item itemvalue="JUnit.vending_machine_tests.wallet_tests in VendingMachine_test" />
       <item itemvalue="JUnit.vending_machine_tests in VendingMachine_test" />
+      <item itemvalue="JUnit.CoinHandlerTest.canEmptyCurrentCoins" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.vending_machine_tests in VendingMachine_test" />
+        <item itemvalue="JUnit.CoinHandlerTest.canEmptyCurrentCoins" />
         <item itemvalue="JUnit.vending_machine_tests.wallet_tests in VendingMachine_test" />
         <item itemvalue="JUnit.CoinBankTest" />
         <item itemvalue="JUnit.CoinBankTest.canAddCoin" />
@@ -723,34 +761,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 17h 47m 41s.xml">
+    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 20h 10m 04s.xml">
       <configuration name="vending_machine_tests in VendingMachine_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 17h 49m 58s.xml">
+    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 20h 12m 23s.xml">
       <configuration name="vending_machine_tests in VendingMachine_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 17h 51m 34s.xml">
+    <history-entry file="CoinHandlerTest_canEmptyCurrentCoins - 2019.01.06 at 20h 13m 55s.xml">
+      <configuration name="CoinHandlerTest.canEmptyCurrentCoins" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinHandlerTest_canEmptyCurrentCoins - 2019.01.06 at 20h 14m 45s.xml">
+      <configuration name="CoinHandlerTest.canEmptyCurrentCoins" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinHandlerTest_canEmptyCurrentCoins - 2019.01.06 at 20h 15m 53s.xml">
+      <configuration name="CoinHandlerTest.canEmptyCurrentCoins" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinHandlerTest_canEmptyCurrentCoins - 2019.01.06 at 20h 18m 18s.xml">
+      <configuration name="CoinHandlerTest.canEmptyCurrentCoins" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinHandlerTest_canEmptyCurrentCoins - 2019.01.06 at 20h 22m 17s.xml">
+      <configuration name="CoinHandlerTest.canEmptyCurrentCoins" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 20h 24m 11s.xml">
       <configuration name="vending_machine_tests in VendingMachine_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 18h 11m 53s.xml">
+    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 21h 12m 17s.xml">
       <configuration name="vending_machine_tests in VendingMachine_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 18h 12m 37s.xml">
-      <configuration name="vending_machine_tests in VendingMachine_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 18h 56m 47s.xml">
-      <configuration name="vending_machine_tests in VendingMachine_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 19h 07m 33s.xml">
-      <configuration name="vending_machine_tests in VendingMachine_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 19h 11m 57s.xml">
-      <configuration name="vending_machine_tests in VendingMachine_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 19h 13m 25s.xml">
-      <configuration name="vending_machine_tests in VendingMachine_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 19h 17m 19s.xml">
+    <history-entry file="vending_machine_tests_in_VendingMachine_test - 2019.01.06 at 21h 13m 39s.xml">
       <configuration name="vending_machine_tests in VendingMachine_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -765,11 +803,11 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.2626506" />
+      <window_info anchor="bottom" id="Messages" weight="0.2614458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902467" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3819277" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3253012" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21269095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -829,74 +867,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vending_machine/wallet/CoinBank.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/vending_machine_tests/wallet_tests/CoinHandlerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="315">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vending_machine/wallet/CoinHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="390">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
           <folding>
             <element signature="e#162#163#0" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
             <element signature="e#267#268#0" expanded="true" />
             <element signature="e#302#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vending_machine/VendingMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/vending_machine_tests/wallet_tests/CoinBankTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/vending_machine_tests/wallet_tests/CoinHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/vending_machine_tests/VendingMachineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -916,7 +905,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/vending_machine_tests/inventory_tests/ProductDispenserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
+        <state relative-caret-position="763">
           <caret line="75" column="63" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -926,10 +915,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vending_machine_tests/wallet_tests/CoinBankTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vending_machine/inventory/ProductDispenser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+        <state relative-caret-position="183">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding>
             <element signature="e#182#183#0" expanded="true" />
             <element signature="e#231#232#0" expanded="true" />
@@ -937,7 +936,50 @@
             <element signature="e#489#490#0" expanded="true" />
             <element signature="method#fill#0;class#ProductDispenser#0" />
             <element signature="e#1422#1423#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vending_machine/wallet/CoinBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vending_machine/VendingMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vending_machine_tests/VendingMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
           </folding>
         </state>
       </provider>

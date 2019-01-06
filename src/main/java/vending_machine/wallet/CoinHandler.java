@@ -31,4 +31,10 @@ public class CoinHandler {
         }
         return currentAmount;
     }
+
+    public ArrayList<CoinType> emptyCurrentCoins() {
+        ArrayList<CoinType> returnedCoins = new ArrayList<>(currentCoins);
+        currentCoins.clear();
+        return returnedCoins;
+    }
 }

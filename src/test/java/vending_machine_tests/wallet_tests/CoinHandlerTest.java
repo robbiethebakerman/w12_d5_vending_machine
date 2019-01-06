@@ -5,6 +5,8 @@ import org.junit.Test;
 import vending_machine.wallet.CoinHandler;
 import vending_machine.wallet.CoinType;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.*;
 
 public class CoinHandlerTest {
@@ -36,5 +38,17 @@ public class CoinHandlerTest {
         coinHandler.addCoin(CoinType.TWENTY_PENCE);
         double currentAmount = coinHandler.getCurrentAmount();
         assertEquals(1.20, currentAmount, 0.001);
+    }
+
+    @Test
+    public void canEmptyCurrentCoins() {
+        coinHandler.addCoin(CoinType.FIFTY_PENCE);
+        coinHandler.addCoin(CoinType.TEN_PENCE);
+        coinHandler.addCoin(CoinType.FIVE_PENCE);
+        assertEquals(3, coinHandler.getCurrentCoins().size());
+        ArrayList<CoinType> returnedCoins = coinHandler.emptyCurrentCoins();
+        assertEquals(3, returnedCoins.size());
+        assertEquals(0, coinHandler.getCurrentCoins().size());
+        assertEquals(0, coinHandler.getCurrentAmount(), 0.001);
     }
 }
