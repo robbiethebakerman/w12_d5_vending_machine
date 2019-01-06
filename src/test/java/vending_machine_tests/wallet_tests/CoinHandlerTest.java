@@ -22,7 +22,6 @@ public class CoinHandlerTest {
         CoinType returnedCoin = coinHandler.addCoin(CoinType.TEN_PENCE);
         assertEquals(1, coinHandler.getCurrentCoins().size());
         assertNull(returnedCoin);
-
     }
 
     @Test
